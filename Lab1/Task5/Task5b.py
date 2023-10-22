@@ -3,4 +3,4 @@ try:
 except ZeroDivisionError:
     print("Cannot divide by zero!")
 finally:
-    print("This code will always execute.")
+    print("This code will always execute Becuse it is in finally block.")

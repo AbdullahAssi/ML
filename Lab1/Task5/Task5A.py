@@ -1,7 +1,7 @@
 import sys
 
 try:
-    # x = 1 / 0
+    x = 1 / 0
     print("Hello from Try Block")
 except Exception as e:
     print("An error occurred:", e)
