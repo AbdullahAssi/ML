@@ -11,3 +11,5 @@ df=  pd.DataFrame(X,columns=['cars_per_hour', 'temperature_at_2am', 'wind_speed'
 df= df.sort_values(['day', 'hour_of_day']).drop('day', axis=1)
 cm = plt.get_cmap('coolwarm')
 df.plot(use_index=False, figsize=(20,5),cmap=cm)
+
+
