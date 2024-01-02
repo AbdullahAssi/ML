@@ -3,7 +3,7 @@
 # 2. From employee.py, import the details function and the employee_name, age, title variables
 
 import json
-from employee import details, employee_name, age, title
+from prac.python_prac.employee import details, employee_name, age, title
 def create_dict(name, age, title):
     """ Creates a dictionary that stores an employee's information
 

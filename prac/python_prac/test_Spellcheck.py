@@ -1,5 +1,5 @@
 import pytest
-from spellcheck import word_count, char_count, first_char, last_char
+from prac.python_prac.spellcheck import word_count, char_count, first_char, last_char
 
 # String variables to be tested
 alpha = "Checking the length & structure of the sentence."
