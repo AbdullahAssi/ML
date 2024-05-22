@@ -41,7 +41,7 @@ def test_struc(input_value):
 
     Args:
       input_value: a function that returns a string, which can be configured
-                   in the input_value() function
+                    in the input_value() function
     """
     # Check the first character of the string
     first_char_result = first_char(input_value)
